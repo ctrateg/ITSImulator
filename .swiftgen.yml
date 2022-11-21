@@ -3,7 +3,7 @@ xcassets:
       - ITSimulator/Resources/Images/Assets.xcassets
       - ITSimulator/Resources/Colors/Colors.xcassets
     outputs:
-      - templateName: swift5
+      - templateName: swift4
         output: ITSimulator/Resources/Images/Assets.swift
         params:
           enumName: Resources

@@ -10,8 +10,21 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
-  /// Что то за строка
-  internal static let someString = L10n.tr("Localizable", "SomeString")
+
+  internal enum MainTabBar {
+    internal enum Titles {
+      /// 
+      internal static let collegsList = L10n.tr("Localizable", "MainTabBar.Titles.collegsList")
+      /// 
+      internal static let newsAndGuides = L10n.tr("Localizable", "MainTabBar.Titles.newsAndGuides")
+      /// 
+      internal static let play = L10n.tr("Localizable", "MainTabBar.Titles.play")
+      /// 
+      internal static let porfolio = L10n.tr("Localizable", "MainTabBar.Titles.porfolio")
+      /// 
+      internal static let settings = L10n.tr("Localizable", "MainTabBar.Titles.settings")
+    }
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name vertical_whitespace_opening_braces

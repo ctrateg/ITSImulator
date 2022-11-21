@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BC4A0E6292BA4E200FF84C0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A0E4292BA4E200FF84C0 /* MainTabBarController.swift */; };
+		1BC4A0E7292BA4E200FF84C0 /* MainTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC4A0E5292BA4E200FF84C0 /* MainTabBarController.xib */; };
+		1BC4A0EA292BA5D400FF84C0 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A0E9292BA5D400FF84C0 /* MainTabBar.swift */; };
+		1BC4A0EC292BA89700FF84C0 /* MainTabBarConfigurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC4A0EB292BA89700FF84C0 /* MainTabBarConfigurations.swift */; };
 		1BCBEF262923E446005C3F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF252923E446005C3F4B /* AppDelegate.swift */; };
-		1BCBEF2A2923E446005C3F4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF292923E446005C3F4B /* ViewController.swift */; };
 		1BCBEF2F2923E447005C3F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF2E2923E447005C3F4B /* Assets.xcassets */; };
 		1BCBEF322923E447005C3F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF302923E447005C3F4B /* LaunchScreen.storyboard */; };
 		1BCBEF3D2923E447005C3F4B /* ITSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF3C2923E447005C3F4B /* ITSimulatorTests.swift */; };
 		1BCBEF472923E447005C3F4B /* ITSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF462923E447005C3F4B /* ITSimulatorUITests.swift */; };
 		1BCBEF492923E447005C3F4B /* ITSimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF482923E447005C3F4B /* ITSimulatorUITestsLaunchTests.swift */; };
-		1BCBEF5829243F8B005C3F4B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF5729243F8B005C3F4B /* ViewController.xib */; };
 		1BCBEF6429245BE1005C3F4B /* SwiftGen_SwiftGenCLI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF6129245BE1005C3F4B /* SwiftGen_SwiftGenCLI.bundle */; };
 		1BCBEF6529245BE1005C3F4B /* swiftlint_0_47_1 in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF6229245BE1005C3F4B /* swiftlint_0_47_1 */; };
 		1BCBEF6629245BE1005C3F4B /* swiftgen in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF6329245BE1005C3F4B /* swiftgen */; };
@@ -23,7 +25,7 @@
 		1BCBEF7529245FD9005C3F4B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF6E29245FD9005C3F4B /* Assets.swift */; };
 		1BCBEF7629245FD9005C3F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF6F29245FD9005C3F4B /* Assets.xcassets */; };
 		1BCBEF7729245FD9005C3F4B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCBEF7129245FD9005C3F4B /* Colors.xcassets */; };
-		1BCBEF7829245FD9005C3F4B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF7229245FD9005C3F4B /* Colors.swift */; };
+		1BCBEF7B2925385C005C3F4B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCBEF7A2925385C005C3F4B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BC4A0E4292BA4E200FF84C0 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		1BC4A0E5292BA4E200FF84C0 /* MainTabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTabBarController.xib; sourceTree = "<group>"; };
+		1BC4A0E9292BA5D400FF84C0 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		1BC4A0EB292BA89700FF84C0 /* MainTabBarConfigurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarConfigurations.swift; sourceTree = "<group>"; };
 		1BCBEF222923E446005C3F4B /* ITSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCBEF252923E446005C3F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1BCBEF292923E446005C3F4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BCBEF2E2923E447005C3F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCBEF312923E447005C3F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BCBEF332923E447005C3F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +60,6 @@
 		1BCBEF422923E447005C3F4B /* ITSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ITSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCBEF462923E447005C3F4B /* ITSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITSimulatorUITests.swift; sourceTree = "<group>"; };
 		1BCBEF482923E447005C3F4B /* ITSimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITSimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1BCBEF5729243F8B005C3F4B /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		1BCBEF6129245BE1005C3F4B /* SwiftGen_SwiftGenCLI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SwiftGen_SwiftGenCLI.bundle; sourceTree = "<group>"; };
 		1BCBEF6229245BE1005C3F4B /* swiftlint_0_47_1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = swiftlint_0_47_1; sourceTree = "<group>"; };
 		1BCBEF6329245BE1005C3F4B /* swiftgen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = swiftgen; sourceTree = "<group>"; };
@@ -65,7 +69,7 @@
 		1BCBEF6E29245FD9005C3F4B /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		1BCBEF6F29245FD9005C3F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BCBEF7129245FD9005C3F4B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		1BCBEF7229245FD9005C3F4B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		1BCBEF7A2925385C005C3F4B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BC4A0E3292BA4B900FF84C0 /* MainTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A0E8292BA5C000FF84C0 /* MainTabBar */,
+				1BC4A0E4292BA4E200FF84C0 /* MainTabBarController.swift */,
+				1BC4A0E5292BA4E200FF84C0 /* MainTabBarController.xib */,
+				1BC4A0EB292BA89700FF84C0 /* MainTabBarConfigurations.swift */,
+			);
+			path = MainTabBarController;
+			sourceTree = "<group>";
+		};
+		1BC4A0E8292BA5C000FF84C0 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1BC4A0E9292BA5D400FF84C0 /* MainTabBar.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
 		1BCBEF192923E446005C3F4B = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +178,7 @@
 		1BCBEF5A292440AF005C3F4B /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				1BCBEF292923E446005C3F4B /* ViewController.swift */,
-				1BCBEF5729243F8B005C3F4B /* ViewController.xib */,
+				1BC4A0E3292BA4B900FF84C0 /* MainTabBarController */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -168,12 +190,14 @@
 				1BCBEF6229245BE1005C3F4B /* swiftlint_0_47_1 */,
 				1BCBEF6329245BE1005C3F4B /* swiftgen */,
 			);
-			path = buildTools;
+			name = buildTools;
+			path = ../buildTools;
 			sourceTree = "<group>";
 		};
 		1BCBEF6729245FD9005C3F4B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1BCBEF792925384D005C3F4B /* Constants */,
 				1BCBEF6829245FD9005C3F4B /* Strings */,
 				1BCBEF6D29245FD9005C3F4B /* Images */,
 				1BCBEF7029245FD9005C3F4B /* Colors */,
@@ -203,9 +227,16 @@
 			isa = PBXGroup;
 			children = (
 				1BCBEF7129245FD9005C3F4B /* Colors.xcassets */,
-				1BCBEF7229245FD9005C3F4B /* Colors.swift */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		1BCBEF792925384D005C3F4B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1BCBEF7A2925385C005C3F4B /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +349,7 @@
 				1BCBEF7729245FD9005C3F4B /* Colors.xcassets in Resources */,
 				1BCBEF6429245BE1005C3F4B /* SwiftGen_SwiftGenCLI.bundle in Resources */,
 				1BCBEF322923E447005C3F4B /* LaunchScreen.storyboard in Resources */,
-				1BCBEF5829243F8B005C3F4B /* ViewController.xib in Resources */,
+				1BC4A0E7292BA4E200FF84C0 /* MainTabBarController.xib in Resources */,
 				1BCBEF7429245FD9005C3F4B /* Localizable.strings in Resources */,
 				1BCBEF6529245BE1005C3F4B /* swiftlint_0_47_1 in Resources */,
 				1BCBEF2F2923E447005C3F4B /* Assets.xcassets in Resources */,
@@ -360,7 +391,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/ITSimulator/buildTools/swiftlint_0_47_1\" --config ${SRCROOT}/.swiftlint.yml\n";
+			shellScript = "\"${PROJECT_DIR}/buildTools/swiftlint_0_47_1\" --config ${SRCROOT}/.swiftlint.yml\n";
 		};
 		1BCBEF5D29245A5D005C3F4B /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -378,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PROJECT_DIR}/ITSimulator/buildTools/swiftgen\" config run --config ${SRCROOT}/.swiftgen.yml\n";
+			shellScript = "\"${PROJECT_DIR}/buildTools/swiftgen\" config run --config ${SRCROOT}/.swiftgen.yml\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -387,11 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BCBEF2A2923E446005C3F4B /* ViewController.swift in Sources */,
-				1BCBEF7829245FD9005C3F4B /* Colors.swift in Sources */,
+				1BC4A0EA292BA5D400FF84C0 /* MainTabBar.swift in Sources */,
+				1BC4A0EC292BA89700FF84C0 /* MainTabBarConfigurations.swift in Sources */,
 				1BCBEF7329245FD9005C3F4B /* Strings.swift in Sources */,
 				1BCBEF7529245FD9005C3F4B /* Assets.swift in Sources */,
+				1BC4A0E6292BA4E200FF84C0 /* MainTabBarController.swift in Sources */,
 				1BCBEF262923E446005C3F4B /* AppDelegate.swift in Sources */,
+				1BCBEF7B2925385C005C3F4B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,14 @@
+//
+//  StringAttributes.swift
+//
+//
+//  Created by Евгений Васильев on 27.06.2022.
+//
+
+// MARK: - MainTabBar
+
+"MainTabBar.Titles.newsAndGuides" = "";
+"MainTabBar.Titles.porfolio" = "";
+"MainTabBar.Titles.play" = "";
+"MainTabBar.Titles.collegsList" = "";
+"MainTabBar.Titles.settings" = "";

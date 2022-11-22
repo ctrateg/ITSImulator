@@ -1,0 +1,19 @@
+xcassets:
+  - inputs: 
+      - ITSimulator/Resources/Images/Assets.xcassets
+      - ITSimulator/Resources/Colors/Colors.xcassets
+    outputs:
+      - templateName: swift4
+        output: ITSimulator/Resources/Images/Assets.swift
+        params:
+          enumName: Resources
+          publicAccess: false
+
+strings:
+  inputs:
+    - ITSimulator/Resources/Strings/ru.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: ITSimulator/Resources/Strings/Strings.swift
+      params:
+        publicAccess: false

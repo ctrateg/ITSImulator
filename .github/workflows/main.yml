@@ -13,28 +13,25 @@ on:
 jobs:
   build:
 
-    runs-on: macos-12
+    runs-on: macos-13
 
     steps:
     - uses: actions/checkout@v2
     - name: Init
       run: |
         make init
-    - name: Force xcode 13
+    - name: Force xcode 14
       run: |
-        sudo xcode-select -switch /Applications/Xcode_13.4.app
+        sudo xcode-select -switch /Applications/Xcode_14.app
     - name: Build
       run: |
         make build
-    - name: SPM Build
-      run: |
-        make spm_build
-    - name: Test
-      run: |
-        make test
-    - name: Example Build
-      run: |
-        make example_build 
+#    - name: SPM Build
+#      run: |
+#        make spm_build
+#    - name: Test
+#      run: |
+#        make test
     - name: documentation
       if: github.ref == 'refs/heads/master'
       run: |
@@ -42,8 +39,8 @@ jobs:
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
       with:
-        author_name: chausovSurfStudio
-        author_email: chausov@surf.dev
+        author_name: evgenyVasilev
+        author_email: ctrateg13@gmail.com
         message: "Updates for documentation"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
